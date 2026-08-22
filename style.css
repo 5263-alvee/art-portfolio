@@ -1,0 +1,167 @@
+.header {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    z-index: 1000;
+}
+
+body {
+    background-color: rgb(243, 246, 245);
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(222, 162, 20);
+    padding-bottom: 15px;
+}
+
+.pp {
+    width: 250px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.pp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    display: block;
+    margin-left:1100px;
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.my-work,.contact {
+    padding: 10px 20px 10px 20px;
+    margin-left:2px;
+    margin-bottom: 25px;
+    background-color:rgb(231, 176, 48);
+    color:white;
+    border-radius: 25px;
+    border:none;
+    font-size: 14px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.contact{
+    margin-left: 15px;
+
+}
+.my-work:hover,.contact:hover {
+    opacity: 0.1;
+    background-color: rgb(231, 176, 48);
+
+}
+.my-work:active,.contact:active {
+    opacity:0.3;
+
+} 
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github {
+    height: 45px;
+    width:45px;
+    margin-right:70px;
+    margin-left: 70px;
+}
+.linkdin {
+    height: 45px;
+    width:42px;
+    margin-right:70px;
+}
+.gmail {
+    height: 50px;
+    width:57px;
+    margin-right:70px;
+    padding-top: 2px;
+}
+.instagram {
+    height: 45px;
+    width:45px;
+    margin-right:70px;
+    padding-top: 2px;
+}
+.github,.linkdin,.gmail,.instagram {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.github:hover,.linkdin:hover,.gmail:hover,.instagram:hover {
+    opacity: 0.1;
+    background-color: rgb(231, 176, 48);
+
+}
+.github:active,.linkdin:active,.gmail:active,.instagram:active {
+    opacity: 0.3;
+
+}
+.navbar a{
+    font-size: 1.2rem;
+    color:var(--text-color);
+    margin-left: 4rem;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid transparent; 
+    cursor: pointer; 
+}
+.navbar a:hover{
+    color:var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:10px;
+    gap:7rem;
+    padding-top:25px;
+    color: rgb(222, 162, 20);
+   
+}
+.about img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding-top: 20px;
+    object-fit: cover;
+}
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 600px;
+    padding-top: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
